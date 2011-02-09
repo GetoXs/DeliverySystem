@@ -1,0 +1,391 @@
+/* 	_________________________
+
+	autorzy: Dawid Myślak
+	data: 2011-02-03
+	
+	klasa Szablon
+	_________________________
+*/
+
+html, body
+{
+	background-color: #daffd3;
+	height: 100%;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+	color: #353e5d;
+}
+
+body
+{
+	display: table;
+	margin: 0 auto;
+}
+
+h1
+{
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+input, select
+{
+	background-color: #ffffff;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+	color: #353e5d;
+	padding: 3px;
+	border: 1px solid #cbd7fe;
+}
+
+#strona
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#logo
+{
+	width: 960px;
+	margin: 10px 20px;
+	font-size: 11px;
+	color: #243921;
+}
+
+#logo img
+{
+	margin-bottom: -25px;
+	margin-right: 5px;
+}
+
+
+#logo h1
+{
+	font-size: 31px;
+	color: #46ac35;
+	display: inline;
+	margin: 0px 5px 0px 0px;
+}
+
+#zawartosc
+{
+	background-color: #ffffff;
+	width: 954px;
+	padding: 10px;
+	margin: 10px;
+	border: 3px solid #77cf69;
+	overflow: hidden;
+}
+
+#tytul
+{
+	font-size: 19px;
+	color: #4b4b4b;
+	margin: 20px 0px 8px 0px;
+}
+
+#zawartosc a:link, #zawartosc a:visited
+{
+	color: #46ac35;
+	text-decoration: none;
+}
+
+#zawartosc a:hover
+{
+	color: #2e7824;
+	text-decoration: underline;
+}
+
+#zawartosc table
+{
+	width: 100%;
+	text-align: center;
+	padding: 0px 1px 1px 1px;
+	border: 3px solid #cbd7fe;
+	border-spacing: 0px;
+}
+
+#zawartosc td
+{
+	padding: 8px;
+}
+
+#strona_glowna
+{
+	width: 974px;
+	overflow: hidden;
+}
+
+#strona_glowna h1
+{
+	font-size: 17px;
+	color: #485fb5;
+}
+
+#logowanie
+{
+	background-color: #e8edff;
+	width: 474px;
+	padding: 10px;
+	margin-right: 10px;
+	border-bottom: 3px solid #cbd7fe;
+	float: left;
+}
+
+#logowanie table
+{
+	padding: 0px;
+	border: 0px;
+}
+
+#rejestracja
+{
+	background-color: #daffd3;
+	width: 200px;
+	height: 107px;
+	color: #243921;
+	padding: 25px 10px 10px 10px;
+	margin-right: 10px;
+	border-bottom: 3px solid #adf1a3;
+	text-align: center;
+	float: left;
+}
+
+#rejestracja ul, #rejestracja ul li
+{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#rejestracja ul
+{
+	margin-top: 33px;
+}
+
+#rejestracja ul li
+{
+	display: inline;
+	white-space: nowrap;
+}
+
+#rejestracja ul a:link, #rejestracja ul a:visited
+{
+	background-color: #adf1a3;
+	font-size: 17px;
+	color: #243921;
+	text-decoration: none;
+	padding: 15px 20px;
+	border: 3px solid #77cf69;
+}
+
+#rejestracja ul a:hover
+{
+	background-color: #d5dfff;
+	color: #353e5d;
+	border: 3px solid #9eabda;
+}
+
+#lokalizacja
+{
+	background-color: #e8edff;
+	width: 200px;
+	height: 122px;
+	padding: 10px;
+	border-bottom: 3px solid #cbd7fe;
+	float: left;
+}
+
+#lokalizacja table
+{
+	padding: 0px;
+	border: 0px;
+}
+
+#nawigacja
+{
+	background-color: #e8edff;
+	width: 934px;
+	padding: 10px;
+	border-bottom: 3px solid #cbd7fe;
+	overflow: hidden;
+}
+
+#menu_glowne
+{
+	width: 220px;
+	float: left;
+}
+
+#menu_glowne ul, #menu_glowne ul li
+{
+	display: block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu_glowne ul
+{
+	width: 220px;
+	font-size: 11px;
+	border-bottom: 1px solid #cbd7fe;
+	margin-top: 10px;
+}
+
+#menu_glowne ul a:link, #menu_glowne ul a:visited
+{
+	width: 204px;
+	color: #353e5d;
+	text-decoration: none;
+	padding: 4px 8px;
+	border-top: 1px solid #cbd7fe;
+	display: block;
+}
+
+#menu_glowne ul a:hover
+{
+	background-color: #ffffff;
+	color: #46ac35;
+}
+
+#menu_akcje
+{
+	width: 691px;
+	min-height: 89px;
+	padding: 10px 0px 0px 10px;
+	margin-left: 10px;
+	border-left: 3px solid #9eabda;
+	float: left;
+}
+
+#menu_akcje h1
+{
+	font-size: 23px;
+	color: #485fb5;
+}
+
+#menu_akcje ul, #menu_akcje ul li
+{
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu_akcje ul
+{
+	margin-top: 20px;
+}
+
+#menu_akcje ul li
+{
+	display: inline;
+	white-space: nowrap;
+}
+
+#menu_akcje ul a:link, #menu_akcje ul a:visited
+{
+	background-color: #d5dfff;
+	font-size: 15px;
+	color: #353e5d;
+	text-decoration: none;
+	padding: 10px 12px;
+	margin-right: 5px;
+	border: 3px solid #cbd7fe;
+}
+
+#menu_akcje ul a:hover
+{
+	background-color: #daffd3;
+	color: #243921;
+	border: 3px solid #77cf69;
+}
+
+.naglowek td
+{
+	background-color: #b2c3fb;
+	color: #ffffff;
+	border-bottom: 3px solid #9eabda;
+}
+
+.parzyste
+{
+	background-color: #d5dfff;
+}
+
+.nieparzyste
+{
+	background-color: #e8edff;
+}
+
+.parzyste:hover, .nieparzyste:hover
+{
+	background-color: #adf1a3;
+}
+
+.naglowek td, .parzyste td, .nieparzyste td
+{
+	border-top: 1px solid #ffffff;
+}
+
+.dane
+{
+	text-align: left;
+}
+
+#komunikat
+{
+	background-color: #daffd3;
+	color: #243921;
+	padding: 10px;
+	margin-top: 10px;
+	border: 3px solid #77cf69;
+	text-align: center;
+}
+
+#komunikat_blad
+{
+	background-color: #fac3c3;
+	color: #af3939;
+	padding: 10px;
+	margin-top: 10px;
+	border: 3px solid #df8383;
+	text-align: center;
+}
+
+#usun
+{
+	background-color: #fac3c3;
+	color: #af3939;
+	padding: 15px;
+	border: 3px solid #df8383;
+	text-align: center;
+}
+
+#usun input
+{
+	background-color: #ffffff;
+	font-family: "Lucida Sans Unicode";
+	font-size: 13px;
+	color: #af3939;
+	padding: 3px;
+	border: 1px solid #df8383;
+}
+
+#usun h1
+{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#stopka
+{
+	width: 960px;
+	margin: 10px 20px;
+	font-size: 11px;
+	color: #243921;
+	text-align: right;
+}
